@@ -1,29 +1,27 @@
-#include <stdio.h>
-
-int main(int argc, char *argv[])
+int main(void)
 
 {
 
-	char ch;
+char ch;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+for (ch = 'a' ; ch <= 'z' ; ch++)
 
-	{
+{
 
-		putchar(ch);
+	putchar(ch);
 
-	}
+}
 
-	for (ch = 'A' ; ch <= 'Z' ; ch++)
+for (ch = 'A' ; ch <= 'Z' ; ch++)
 
-	{
+{
 
-		putchar(ch);
+	putchar(ch);
 
-	}
+}
 
-	putchar('\n');
+putchar('\n');
 
-	return (0);
+return (0);
 
 }
