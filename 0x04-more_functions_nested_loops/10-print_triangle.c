@@ -1,51 +1,37 @@
-#include <stdio.h>
-
 #include "main.h"
 
 void print_triangle(int size)
 
 {
 
-int inc1, inc2;
+int hash, index;
 
 if (size > 0)
 
 {
 
-for (inc1 = 1; inc1 <= size; inc1++)
+for (hash = 1; hash <= size; hash++)
 
 {
 
-for ((inc2 = size - inc1); inc2 > 0; inc2--)
+for (index = size - hash; index > 0; index--)
 
-{
+_putchar(' ');
 
-putchar(' ');
+for (index = 0; index < hash; index++)
 
-}
+_putchar('#');
 
-for (inc2 = 0; inc2 < inc1; inc2++)
-
-{
-
-putchar('#');
-
-}
-
-if (inc1 == size)
-
-{
+if (hash == size)
 
 continue;
 
-}
-
-putchar('\n');
+_putchar('\n');
 
 }
 
 }
 
-putchar('\n');
+_putchar('\n');
 
 }
