@@ -1,35 +1,25 @@
 #include "main.h"
 
-int largest_number(int a, int b, int c)
+int main() {
 
-{
+double n1, n2, n3;
 
-int largest;
+printf("Enter three different numbers: ");
 
-if (a >= b && a >= c)
+scanf("%lf %lf %lf", &n1, &n2, &n3);
 
-{
+if (n1 >= n2 && n1 >= n3)
 
-largest = a;
+printf("%.2f is the largest number.", n1);
 
-}
+if (n2 >= n1 && n2 >= n3)
 
-else if (b >= a && b >= c)
+printf("%.2f is the largest number.", n2);
 
-{
+if (n3 >= n1 && n3 >= n2)
 
-largest = b;
+printf("%.2f is the largest number.", n3);
 
-}
-
-else
-
-{
-
-largest = c;
-
-}
-
-return (largest);
+return 0;
 
 }
