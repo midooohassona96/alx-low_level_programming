@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 int _atoi(char *s)
 
@@ -24,6 +24,6 @@ break;
 
 } while (*s++);
 
-return (num * sign);
+return (num *sign);
 
 }
