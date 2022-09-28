@@ -6,8 +6,6 @@ void _print_rev_recursion(char *s)
 
 {
 
-printf("C function that prints a string in reverse \n");
-
 if (*s)
 
 {
