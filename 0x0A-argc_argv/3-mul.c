@@ -6,26 +6,30 @@ int main(int argc, char *argv[])
 
 {
 
-int num1, num2, prod;
+	int index, multipication;
 
-if (argc != 3)
+	multipication = 1;
 
-{
+	if (argc < 3)
 
-printf("Error\n");
+	{
 
-return (1);
+		printf("Error\n");
 
-}
+		return (1);
 
-num1 = atoi(argv[1]);
+	}
 
-num2 = atoi(argv[2]);
+	for (index = 1; index < argc; index++)
 
-prod = num1 * num2;
+	{
 
-printf("%d\n", prod);
+		multipication = multipication * atoi(argv[index]);
 
-return (0);
+	}
+
+	printf("%d\n", multipication);
+
+	return (0);
 
 }
