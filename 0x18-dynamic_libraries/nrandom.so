@@ -1,0 +1,5 @@
+_ITM_deregisterTMCloneTable _ITM_registerTMCloneTable __cxa_finalize printf puts write libc.so.6 GLIBC_2.2.5
+ 9 8 10 24 75 - 9
+ Congratulations, you win the Jackpot!
+ GCC: (GNU) 11.1.0
+ crtstuff.c deregister_tm_clones __do_global_dtors_aux completed.0 __do_global_dtors_aux_fini_array_entry frame_dummy __frame_dummy_init_array_entry nrandom.c __dso_handle _DYNAMIC __GNU_EH_FRAME_HDR _GLOBAL_OFFSET_TABLE_ printf _ITM_deregisterTMCloneTable write@GLIBC_2.2.5 puts _ITM_registerTMCloneTable __cxa_finalize@GLIBC_2.2.5 .symtab .strtab .shstrtab .note.gnu.property .note.gnu.build-id .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rela.dyn .rela.plt .rodata .eh_frame_hdr .eh_frame .init_array .fini_array .dynamic

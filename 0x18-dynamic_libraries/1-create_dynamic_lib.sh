@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/usr/bin/bash
 
-gcc -Wall -pedantic -Werror -Wextra -fPIC -c *.c
+gcc -Wall -c -fPIC *.c 
 
-gcc -shared -o liball.so *.o
+gcc  -shared *.o  -o liball.so 
